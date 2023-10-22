@@ -67,6 +67,8 @@ TCP에서의 패킷으로, 전송할 데이터 바이트와 TCP에 의해 데이
 
 Client가 Server에 연결을 요청 했다고 가정하자. TCP의 3-Way Handshake는 다음과 같은 3단계를 거쳐 네트워크 연결을 설정한다.
 
+![Untitled (1)](https://github.com/do-sopt-cs-study/CS-Yeonseo/assets/77691829/af6da5fd-e154-4042-aefa-af80dafb8dba)
+
 #### [Step 1] Client ⇒ Server : SYN
 
 - Clinet는 Server에 connection을 생성하기 위해 **연결 요청 메시지 SYN(x)**를 보낸다.
@@ -106,6 +108,8 @@ Client가 Server에 연결을 요청 했다고 가정하자. TCP의 3-Way Handsh
   - `Abrupt Connection Release (갑작스런 연결 해제)` : 갑자기 한 TCP 엔티티가 연결을 강제로 닫는 경우, 한 사용자가 두 데이터 전송 방향을 모두 닫는 경우이다.
 
 Client가 Server에 연결 해제를 요청했다고 가정하자. TCP의 4-Way Handshake는 다음과 같은 3단계를 거쳐 네트워크 연결을 해제한다.
+
+![Untitled](https://github.com/do-sopt-cs-study/CS-Yeonseo/assets/77691829/131094d1-6488-4a73-9033-f5053e6af0fb)
 
 #### [Step 1] Client ⇒ Server : FIN(+ACK)
 
